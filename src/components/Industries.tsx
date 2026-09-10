@@ -91,7 +91,7 @@ const INDUSTRIES: Industry[] = [
 
 export function Industries() {
   return (
-    <section id="industries" className="py-24">
+    <section id="industries" className="pt-24">
       <div className="container-shell">
         <Reveal className="max-w-2xl" stagger={0.1}>
           <span className="text-xs font-medium uppercase tracking-[0.2em] text-accent-strong">

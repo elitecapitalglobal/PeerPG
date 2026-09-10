@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { CapabilitiesMarquee } from "@/components/CapabilitiesMarquee";
 import { ValueGrid } from "@/components/ValueGrid";
 import { HowItWorks } from "@/components/HowItWorks";
+import { CountriesServed } from "@/components/CountriesServed";
 import { Industries } from "@/components/Industries";
 import { Solutions } from "@/components/Solutions";
 import { DeveloperPanel } from "@/components/DeveloperPanel";
@@ -19,6 +20,7 @@ export default function Home() {
         <ValueGrid />
         <Solutions />
         <Industries />
+        <CountriesServed />
         <HowItWorks />
         <CTASection />
         <DeveloperPanel />
